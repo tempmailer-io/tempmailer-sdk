@@ -35,6 +35,14 @@
     "cypress"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tempmailer-io/tempmailer-sdk.git"
+  },
+  "homepage": "https://github.com/tempmailer-io/tempmailer-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/tempmailer-io/tempmailer-sdk/issues"
+  },
   "devDependencies": {
     "typescript": "^5.7.3"
   }
