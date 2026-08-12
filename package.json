@@ -1,0 +1,41 @@
+{
+  "name": "@tempmailer/sdk",
+  "version": "0.1.0",
+  "description": "Official TempMailer SDK — create inboxes, receive email, and extract OTP codes in one call. Built for automated email testing (Playwright, Cypress, CI).",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "tempmailer",
+    "temporary-email",
+    "disposable-email",
+    "email-api",
+    "otp",
+    "email-testing",
+    "e2e",
+    "playwright",
+    "cypress"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
