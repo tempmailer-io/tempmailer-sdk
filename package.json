@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Official TempMailer SDK — create inboxes, receive email, and extract OTP codes in one call. Built for automated email testing (Playwright, Cypress, CI).",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
