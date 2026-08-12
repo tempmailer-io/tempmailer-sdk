@@ -1,5 +1,10 @@
 # @tempmailer/sdk
 
+[![npm version](https://img.shields.io/npm/v/@tempmailer/sdk.svg)](https://www.npmjs.com/package/@tempmailer/sdk)
+[![npm downloads](https://img.shields.io/npm/dm/@tempmailer/sdk.svg)](https://www.npmjs.com/package/@tempmailer/sdk)
+[![CI](https://github.com/tempmailer-io/tempmailer-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/tempmailer-io/tempmailer-sdk/actions/workflows/ci.yml)
+[![license](https://img.shields.io/npm/l/@tempmailer/sdk.svg)](./LICENSE)
+
 Official TypeScript SDK for the [TempMailer](https://tempmailer.io) Developer API. Create inboxes, receive real email, and **extract the OTP in one call** — built for automated email testing (Playwright, Cypress, CI).
 
 ```ts
